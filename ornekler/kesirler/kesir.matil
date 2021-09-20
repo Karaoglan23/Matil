@@ -1,0 +1,8 @@
+kesir = Kesir(5, 8)
+kesir2 = Kesir(10, 3)
+kesir3, kesir4 = kesir.payda_esitle(kesir2)
+kesir3.yaz()
+kesir4.yaz()
+kesir3.topla(kesir4).yaz()
+kesir3.topla(kesir4).sadelestir().yaz()
+yaz(Kesir(1337,1337))

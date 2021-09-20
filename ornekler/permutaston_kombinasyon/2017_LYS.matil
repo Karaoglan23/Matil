@@ -1,0 +1,1 @@
+yaz(Kombinasyon(4, 1) * Kombinasyon(4, 3) + Kombinasyon(2, 1) * Kombinasyon(4, 2))

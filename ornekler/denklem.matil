@@ -1,0 +1,5 @@
+x = Degisken('x')
+denklem = Denklem("x**2 - 40 = 140",[x])
+denklem.yaz()
+denklem.coz()
+denklem.sonuc_yaz()

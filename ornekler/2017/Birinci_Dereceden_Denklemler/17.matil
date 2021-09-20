@@ -1,0 +1,6 @@
+x = Degisken("x")
+denklem = Denklem("8*x - 28 = 0", [x])
+x = denklem.coz()[0]
+x = hesapla(x)
+yaz("x = " + str(x))
+yaz(eval("7*"+str(x)+"-16"))

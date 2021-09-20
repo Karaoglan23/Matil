@@ -1,0 +1,14 @@
+A = Kume(lambda eleman : eleman.ilkHarf == "A")
+N = Kume(lambda eleman : eleman.sonHarf == "N")
+B = Kume(lambda eleman : uzunluk(eleman) == 5)
+K = Kume(["AÇELYA","AHMET","AYSUN","BEREN","KENAN","NERMİN"])
+A.ekle(K)
+N.ekle(K)
+B.ekle(K)
+hedefKume = A.fark(N).bilesim(N.fark(A)).kesisim(B)
+yaz(hedefKume.elemanlari)
+sonuc = 0
+Her eleman içinde K.elemanlari:
+    Eğer(eleman içinde hedefKume.elemanlari):
+        sonuc += 1
+yaz(sonuc)

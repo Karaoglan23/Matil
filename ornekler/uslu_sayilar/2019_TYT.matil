@@ -1,0 +1,2 @@
+sonuc = hesapla("2**6 * 5**6 * 4**6 / 5**6")
+uslu_yaz(sonuc,2)

@@ -1,0 +1,7 @@
+gizemli_kume = Kume(lambda kume : kume.elemanSayisi içinde kume)
+gizemli_alt_kume_listesi = Kume()
+A = Kume([1,2,3,4,5,6])
+Her altKume içinde A.tumAltKumeler():
+    Eğer(gizemli_kume.test(altKume)):
+        gizemli_alt_kume_listesi.ekle(altKume)
+yaz(gizemli_alt_kume_listesi.elemanSayisi)
